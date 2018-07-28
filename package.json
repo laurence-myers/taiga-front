@@ -21,6 +21,7 @@
     "e2e": "./node_modules/.bin/babel-node run-e2e.js"
   },
   "devDependencies": {
+    "@types/angular": "1.5.23",
     "angular-mocks": "1.5.5",
     "babel-cli": "^6.23.0",
     "babel-polyfill": "^6.7.4",
@@ -93,6 +94,7 @@
     "run-sequence": "^1.0.2",
     "sinon": "^1.14.1",
     "through2": "^2.0.1",
+    "typescript": "2.9.2",
     "vinyl-fs": "^2.1.1"
   },
   "pre-commit": [
