@@ -16,4 +16,9 @@ scss-lint.log
 e2e/screenshots/
 e2e/reports/
 app/modules/compile-modules/
+.idea/
+*.log
+
+# Why are we ignoring these lock files?
+package-lock.json
 yarn.lock
