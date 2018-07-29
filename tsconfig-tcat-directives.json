@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig-base.json",
+  "files": [
+    "./tcat-directives.ts"
+  ]
+}

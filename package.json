@@ -18,10 +18,13 @@
   "scripts": {
     "scss-lint": "gulp scss-lint --fail",
     "test": "./node_modules/karma/bin/karma start",
+    "tcat": "tsc -p tsconfig-tcat-directives.json && tcat tcat-directives.js app/ -c tsconfig-tcat.json",
+    "tcatw": "tsc -p tsconfig-tcat-directives.json && tcat tcat-directives.js app/ -c tsconfig-tcat.json -w",
     "e2e": "./node_modules/.bin/babel-node run-e2e.js"
   },
   "devDependencies": {
     "@types/angular": "1.5.23",
+    "@types/joi": "10.6.2",
     "angular-mocks": "1.5.5",
     "babel-cli": "^6.23.0",
     "babel-polyfill": "^6.7.4",
@@ -94,6 +97,7 @@
     "reporter-file": "^1.0.0",
     "run-sequence": "^1.0.2",
     "sinon": "^1.14.1",
+    "tcat": "0.3.2",
     "through2": "^2.0.1",
     "typescript": "2.9.2",
     "vinyl-fs": "^2.1.1"

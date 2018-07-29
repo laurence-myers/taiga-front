@@ -18,6 +18,9 @@ e2e/reports/
 app/modules/compile-modules/
 .idea/
 *.log
+*.tcat.ts
+/tcat-directives.js
+/tcat-global-stubs.js
 
 # Why are we ignoring these lock files?
 package-lock.json

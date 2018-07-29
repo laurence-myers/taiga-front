@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "strictNullChecks": false
+  },
+  "include": [
+    "./app/modules/**/*.jade.tcat.ts"
+  ]
+}
